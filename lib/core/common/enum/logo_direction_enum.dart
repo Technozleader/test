@@ -1,0 +1,1 @@
+enum LogoDirection { left, right }
