@@ -1,0 +1,88 @@
+name: nesma
+description: A new Flutter project.
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^1.1.6
+  sizer: ^2.0.15
+  country_code_picker: ^3.0.0
+  syncfusion_flutter_charts: ^20.3.60
+  equatable: ^2.0.5
+  dartz: ^0.10.1
+  flutter_bloc: ^8.1.3
+  bloc: ^8.1.2
+  dio: ^5.2.1+1
+  connectivity_plus: 3.0.1
+  path_provider: ^2.0.15
+  shared_preferences: ^2.2.0
+  get_it: ^7.6.0
+  logger: ^1.4.0
+  intl: 0.18.1
+  cached_network_image: ^3.2.3
+  json_serializable: ^6.3.2
+  lottie: ^2.3.2
+  freezed: ^2.3.1
+  json_annotation: ^4.8.0
+  freezed_annotation: ^2.4.1
+  url_launcher: ^6.1.7
+  flutter_localization: ^0.1.12
+
+dev_dependencies:
+
+
+
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+  build_runner: ^2.3.3
+  analyzer:
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section
+  assets:
+    - assets/images/
+    - assets/images/payment_bottom_sheet_assets/
+    - assets/images/order_details_assets/
+    - assets/images/profile_images/
+    - assets/images/profile_images/credit_card/
+    - assets/icons/
+    - assets/lottie/
+
+
+
+  fonts:
+    - family: Nesma_Icons
+      fonts:
+        - asset: assets/fonts/Nesma_Icons.ttf
+    - family: sequel_sans
+      fonts:
+        - asset: assets/fonts/sequel_sans/Sequel Sans Bold Body.ttf
+          weight: 800
+        - asset: assets/fonts/sequel_sans/Sequel Sans Medium Body.ttf
+          weight: 400
+        - asset: assets/fonts/sequel_sans/Sequel Sans Roman Body.ttf
+          weight: 300
+        - asset: assets/fonts/sequel_sans/Sequel Sans Light Body.ttf
+          weight: 100
